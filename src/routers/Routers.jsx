@@ -32,6 +32,8 @@ import Signup from '../pages/Signup'
 
 
 import ProtectedRoutes from './ProtectedRoutes'
+import CorporateSignup from '../pages/CorporateSignup'
+import CorporateLogin from '../pages/CorporateLogin'
 
 function Routers() {
 
@@ -49,7 +51,10 @@ function Routers() {
         <Route path='/aboutus' element={ <Aboutus/> }/>
 
         <Route path='/login' element={ <Login/> }/>
+        <Route path='/corporate_login' element={ <CorporateLogin/> }/>
+
         <Route path='/signup' element={ <Signup/> }/>
+        <Route path='/corporate_signup' element={ <CorporateSignup/> }/>
 
 
         {/*------------------  user routes ----------------------*/}

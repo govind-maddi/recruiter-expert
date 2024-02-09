@@ -1,8 +1,16 @@
 import React from 'react'
+import MyOrganisation from '../../pagecomponents/admin/MyOrganisation'
+import MyStats from '../../pagecomponents/admin/MyStats'
 
 function Dashboard_Admin() {
+
+  
+
   return (
-    <div>Dashboard_Admin</div>
+    <div>
+      <MyOrganisation />
+      <MyStats />
+    </div>
   )
 }
 
