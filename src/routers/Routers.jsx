@@ -61,8 +61,7 @@ function Routers() {
         <Route path='/user'>
             <Route index element={ <ProtectedRoutes Comp={ <Dashboard_User/> } /> }/>
 
-            <Route path=':userid' element={ <ProtectedRoutes Comp={ <Dashboard_User/> } /> }/>
-            <Route path=':userid/dashboard' element={ <ProtectedRoutes Comp={ <Dashboard_User/> } /> } />
+            <Route path=':userid' element={ <ProtectedRoutes Comp={ <Dashboard_User/> } /> }/> 
 
             <Route path=':userid/jobs' element={ <ProtectedRoutes Comp={ <Jobs/> } /> } />
             <Route path=':userid/jobs/:jobid' element={ <ProtectedRoutes Comp={ <Job/> } /> }/>
