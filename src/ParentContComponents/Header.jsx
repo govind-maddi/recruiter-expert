@@ -21,10 +21,11 @@ function Header() {
     <StyledBox>
       <Typography variant='h4'>Logo</Typography>
       <Stack direction='row' spacing={4}>
-        <Typography variant='h6' fontSize={18}>Home</Typography>
-        <Typography variant='h6' fontSize={18}>Dashboard</Typography>
-        <Typography variant='h6' fontSize={18}>Profile</Typography>
-        <Typography variant='h6' fontSize={18}>Logout</Typography>
+        <Typography variant='h6' fontSize={16} fontFamily="Montserrat">Home</Typography>
+        <Typography variant='h6' fontSize={16} fontFamily="Montserrat">Home</Typography>
+        <Typography variant='h6' fontSize={16} fontFamily="Montserrat">Dashboard</Typography>
+        <Typography variant='h6' fontSize={16} fontFamily="Montserrat">Profile</Typography>
+        <Typography variant='h6' fontSize={16} fontFamily="Montserrat">Logout</Typography>
       </Stack>
     </StyledBox>
   )
